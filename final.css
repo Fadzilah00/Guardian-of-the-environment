@@ -1,0 +1,94 @@
+<style>
+#logo {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    }
+  header{
+    grid-area: header;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-family: initial;
+  }
+  body {
+      font-family: Helvetica;
+      padding: 0px;
+      margin: 0px;
+    }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    position: relative;
+  }
+
+  li a {
+    display: block;
+    padding: 22px;
+    text-decoration: none;
+    color: white;
+  }
+
+  li:hover {
+    background-color: grey;
+  }
+
+  /* Dropdown styles */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 104px;
+  }
+
+  .dropdown-content li {
+    display: block;
+  }
+
+  li:hover .dropdown-content {
+    display: block;
+  }
+
+  footer {
+      background-color: black;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer-icons {
+      width: 10%;
+      height: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cta p {
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    
+    .cta .button {
+      background-color: #fff;
+      color: #333;
+      padding: 10px 20px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .cta h2 {
+      font-size: 36px;
+      color: #fff;
+      margin: 0;
+    }
+
+</style>
